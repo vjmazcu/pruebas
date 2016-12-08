@@ -115,11 +115,13 @@
                       <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="primero" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="anterior" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="ultimo" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="siguiente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="primero" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="anterior" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siguiente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
