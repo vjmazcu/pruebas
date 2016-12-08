@@ -26,7 +26,7 @@ public class Fabricantes extends javax.swing.JFrame {
         String user = "root";
         String pass = "";
         Connection connection = DriverManager.getConnection(url, user,pass);
-       
+       //He hecho nuevas modificaciones y esto es una prueba para verlo 
         Statement s = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
         String query = "select * from fabricantes";
         r = s.executeQuery(query);
